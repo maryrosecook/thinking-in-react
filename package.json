@@ -1,0 +1,34 @@
+{
+  "name": "thinking-in-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "filterable-product-table.js",
+  "scripts": {
+    "watch": "rm -r build; webpack --progress --colors --watch",
+    "test": "jest --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "jest": {
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react/",
+      "<rootDir>/node_modules/react-dom/",
+      "<rootDir>/node_modules/react-addons-test-utils/"
+    ]
+  },
+  "dependencies": {
+    "react": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-jest": "^13.0.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "jest-cli": "^13.0.0",
+    "jsx-loader": "^0.13.2",
+    "react-addons-test-utils": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "webpack": "^1.13.1"
+  }
+}
