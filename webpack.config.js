@@ -28,5 +28,4 @@ module.exports = {
     fs: "empty"
   },
 
-  devtool: 'cheap-eval-source-map'
 };
